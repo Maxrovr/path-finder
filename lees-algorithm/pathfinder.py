@@ -96,4 +96,13 @@ mazes = [
 pf = PathFinder()
 for source, destination in [[(0,0),(5,4)],[(1,4),(8,8)]]:
     for maze in mazes:
-        display_path(pf.get_path(source, destination, maze))
+[[1, 1, 1, 1, 1, 0, 0, 1, 1, 1 ]
+		[ 0, 1, 1, 1, 1, 1, 0, 1, 0, 1 ]
+		[ 0, 0, 1, 0, 1, 1, 1, 0, 0, 1 ]
+		[ 1, 0, 1, 1, 1, 0, 1, 1, 0, 1 ]
+		[ 0, 0, 0, 1, 0, 0, 0, 1, 0, 1 ]
+		[ 1, 0, 1, 1, 1, 0, 0, 1, 1, 0 ]
+		[ 0, 0, 0, 0, 1, 0, 0, 1, 0, 1 ]
+		[ 0, 1, 1, 1, 1, 1, 1, 1, 0, 0 ]
+		[ 1, 1, 1, 1, 1, 0, 0, 1, 1, 1 ]
+		[ 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ]]        display_path(pf.get_path(source, destination, maze))
